@@ -1,0 +1,12 @@
+---
+import { AUTHOR } from '../config';
+import Avatar from './Avatar.astro';
+---
+<aside class="author-box" aria-label="Sobre el autor">
+  <Avatar />
+  <div>
+    <h2>Escrito por {AUTHOR.name}</h2>
+    <p>{AUTHOR.shortBio}</p>
+    <a href="/sobre-mi/">Más sobre mí y cómo trabajo</a>
+  </div>
+</aside>

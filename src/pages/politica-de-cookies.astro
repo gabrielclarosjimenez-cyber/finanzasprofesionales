@@ -1,0 +1,35 @@
+---
+import Legal from '../layouts/Legal.astro';
+import { LEGAL } from '../config';
+---
+<Legal title="Política de cookies" description="Qué cookies utiliza Finanzas Profesionales, para qué sirven, cuánto duran y cómo aceptarlas, rechazarlas o cambiar tu elección.">
+  <h2>Qué son las cookies</h2>
+  <p>Las cookies son pequeños archivos que un sitio web guarda en tu navegador para recordar información sobre tu visita. Algunas son necesarias y otras solo se instalan si das tu consentimiento.</p>
+
+  <h2>Cookies que utiliza este sitio</h2>
+  <p>Este sitio <strong>no instala cookies propias</strong>. Las únicas cookies proceden de Google, para gestionar tu consentimiento y para la publicidad:</p>
+  <table>
+    <thead><tr><th>Cookie</th><th>Proveedor</th><th>Finalidad</th><th>Duración</th><th>Tipo</th></tr></thead>
+    <tbody>
+      <tr><td><code>FCCDCF</code>, <code>FCNEC</code></td><td>Google (mensaje de consentimiento)</td><td>Guardar tu elección sobre las cookies</td><td>Hasta 13 meses</td><td>Técnica (necesaria)</td></tr>
+      <tr><td><code>__gads</code>, <code>__gpi</code>, <code>__eoi</code></td><td>Google AdSense</td><td>Mostrar anuncios, limitar su repetición y medir su rendimiento</td><td>Hasta 13 meses</td><td>Publicidad (con consentimiento)</td></tr>
+      <tr><td><code>IDE</code>, <code>test_cookie</code> (dominio doubleclick.net)</td><td>Google</td><td>Publicidad personalizada y comprobar si el navegador admite cookies</td><td>Hasta 13 meses / 15 minutos</td><td>Publicidad (con consentimiento)</td></tr>
+    </tbody>
+  </table>
+  <p>Las cookies de terceros pueden cambiar. Esta tabla se revisa periódicamente.</p>
+
+  <h2>Cómo aceptar, rechazar o cambiar tu elección</h2>
+  <p>Al entrar por primera vez verás un aviso de Google para <strong>aceptar, rechazar o gestionar</strong> las cookies por finalidades. Las cookies de publicidad no se instalan hasta que las aceptas. Puedes cambiar tu decisión cuando quieras desde el enlace <strong>«Configurar cookies»</strong> del pie de página.</p>
+  <p>También puedes borrar o bloquear las cookies desde tu navegador:</p>
+  <ul>
+    <li>Chrome: <a href="https://support.google.com/chrome/answer/95647" rel="noopener">support.google.com/chrome/answer/95647</a></li>
+    <li>Firefox: <a href="https://support.mozilla.org/es/kb/Borrar%20cookies" rel="noopener">support.mozilla.org/es/kb/Borrar cookies</a></li>
+    <li>Safari: <a href="https://support.apple.com/es-es/guide/safari/sfri11471/mac" rel="noopener">support.apple.com/es-es/guide/safari/sfri11471/mac</a></li>
+    <li>Edge: <a href="https://support.microsoft.com/es-es/microsoft-edge" rel="noopener">support.microsoft.com/es-es/microsoft-edge</a></li>
+  </ul>
+
+  <h2>Más información</h2>
+  <p>Para saber cómo trata Google los datos: <a href="https://policies.google.com/technologies/cookies" rel="noopener">policies.google.com/technologies/cookies</a>. Para más detalles sobre tus datos, consulta la <a href="/politica-privacidad/">Política de privacidad</a>.</p>
+
+  <p><em>Última actualización: {LEGAL.updated}</em></p>
+</Legal>

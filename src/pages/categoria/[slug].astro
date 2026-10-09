@@ -1,0 +1,22 @@
+---
+import Base from '../../layouts/Base.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { getArticles } from '../../lib';
+import { CATEGORIES } from '../../data/categories';
+
+export function getStaticPaths() {
+  return CATEGORIES.map((c) => ({ params: { slug: c.slug }, props: { cat: c } }));
+}
+const { cat } = Astro.props;
+const articles = (await getArticles()).filter((a) => a.data.category === cat.slug);
+---
+<Base title={cat.name} description={cat.description} noindex={articles.length === 0}>
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Migas de pan"><a href="/">Inicio</a> › {cat.name}</nav>
+    <h1>{cat.name}</h1>
+    <p class="lead" style="max-width:720px;color:var(--c-muted)">{cat.description}</p>
+    {articles.length > 0
+      ? <div class="grid">{articles.map((a) => <ArticleCard article={a} showCategory={false} />)}</div>
+      : <p class="empty">Pronto publicaremos guías sobre este tema. Mientras tanto, consulta <a href="/articulos/">todas las guías</a>.</p>}
+  </div>
+</Base>

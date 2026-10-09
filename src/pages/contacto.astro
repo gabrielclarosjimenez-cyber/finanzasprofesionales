@@ -1,0 +1,12 @@
+---
+import Legal from '../layouts/Legal.astro';
+import { SITE, LEGAL } from '../config';
+---
+<Legal title="Contacto" description="Cómo contactar con Finanzas Profesionales para dudas, correcciones o propuestas.">
+  <p>¿Has visto un error, tienes una duda sobre una guía o quieres proponer un tema? Escríbeme:</p>
+  <p style="font-size:1.25rem"><a class="btn" href={`mailto:${SITE.email}`}>{SITE.email}</a></p>
+  <p>Suelo responder en unos días. Ten en cuenta que <strong>no puedo dar asesoramiento financiero personalizado</strong> ni revisar tus cuentas o datos bancarios: nunca me envíes contraseñas, números de tarjeta ni códigos de verificación.</p>
+  <p>Si estás sufriendo una estafa ahora mismo, llama primero a tu banco por su teléfono oficial y al <strong>017</strong>, la línea gratuita de ayuda en ciberseguridad de INCIBE.</p>
+  <h2>Información sobre protección de datos</h2>
+  <p><strong>Responsable:</strong> {LEGAL.titular}. <strong>Finalidad:</strong> responder a tu mensaje. <strong>Legitimación:</strong> tu consentimiento al escribir. <strong>Destinatarios:</strong> IONOS (proveedor de correo); no se ceden datos a terceros. <strong>Derechos:</strong> acceso, rectificación, supresión y otros, como se explica en la <a href="/politica-privacidad/">Política de privacidad</a>.</p>
+</Legal>

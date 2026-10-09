@@ -1,0 +1,59 @@
+---
+import Legal from '../layouts/Legal.astro';
+import { LEGAL, SITE } from '../config';
+---
+<Legal title="Política de privacidad" description="Cómo trata Finanzas Profesionales tus datos personales, con qué finalidad y base legal, y cómo ejercer tus derechos según el RGPD.">
+  <h2>1. Responsable del tratamiento</h2>
+  <ul>
+    <li><strong>Responsable:</strong> {LEGAL.titular}</li>
+    <li><strong>NIF:</strong> {LEGAL.nif}</li>
+    <li><strong>Domicilio:</strong> {LEGAL.domicilio}</li>
+    <li><strong>Correo de contacto:</strong> <a href={`mailto:${SITE.email}`}>{SITE.email}</a></li>
+  </ul>
+
+  <h2>2. Qué datos tratamos, para qué y con qué base legal</h2>
+  <table>
+    <thead><tr><th>Tratamiento</th><th>Datos</th><th>Finalidad</th><th>Base legal</th></tr></thead>
+    <tbody>
+      <tr><td>Correo electrónico que nos envías</td><td>Nombre, dirección de correo y lo que incluyas en el mensaje</td><td>Responder a tu consulta</td><td>Tu consentimiento al escribirnos (art. 6.1.a RGPD)</td></tr>
+      <tr><td>Publicidad (Google AdSense)</td><td>Identificadores de cookies y del dispositivo, dirección IP, interacción con los anuncios</td><td>Mostrar anuncios, personalizados o no según tu elección, medir su rendimiento y prevenir el fraude</td><td>Tu consentimiento a través del aviso de cookies (art. 6.1.a RGPD y art. 22.2 LSSI); para anuncios no personalizados y la prevención del fraude, interés legítimo (art. 6.1.f RGPD)</td></tr>
+      <tr><td>Alojamiento y seguridad del sitio</td><td>Dirección IP y datos técnicos de la conexión que registra el servidor</td><td>Servir la web y protegerla frente a ataques y abusos</td><td>Interés legítimo en la seguridad del sitio (art. 6.1.f RGPD)</td></tr>
+    </tbody>
+  </table>
+  <p>Este sitio no tiene formularios, comentarios ni registro de usuarios, y no usa herramientas de analítica que instalen cookies. No se toman decisiones automatizadas con efectos jurídicos sobre ti.</p>
+
+  <h2>3. Cuánto tiempo conservamos los datos</h2>
+  <ul>
+    <li>Correos recibidos: el tiempo necesario para responder y, como máximo, 12 meses después.</li>
+    <li>Registros técnicos del alojamiento: los plazos que aplica el proveedor por motivos de seguridad.</li>
+    <li>Cookies: según la duración indicada en la <a href="/politica-de-cookies/">Política de cookies</a>.</li>
+  </ul>
+
+  <h2>4. Con quién se comparten los datos</h2>
+  <ul>
+    <li><strong>GitHub, Inc.</strong> (alojamiento de la web mediante GitHub Pages), como encargado del tratamiento. Registra la dirección IP de las visitas por motivos de seguridad.</li>
+    <li><strong>IONOS SE</strong> (dominio y correo electrónico), como encargado del tratamiento, con servidores en la Unión Europea.</li>
+    <li><strong>Google Ireland Limited</strong> (Google AdSense). Google y sus socios publicitarios usan cookies para mostrar anuncios en función de tus visitas a este y otros sitios web. Puedes consultar cómo usa Google los datos en <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">policies.google.com/technologies/partner-sites</a>, gestionar la personalización en <a href="https://adssettings.google.com" rel="noopener">adssettings.google.com</a> y desactivar la publicidad personalizada de otros proveedores en <a href="https://www.youronlinechoices.com/es/" rel="noopener">youronlinechoices.com</a>.</li>
+    <li>Administraciones públicas o juzgados, solo cuando lo exija la ley.</li>
+  </ul>
+  <p>No se venden datos personales a terceros.</p>
+
+  <h2>5. Transferencias internacionales</h2>
+  <p>GitHub y Google pueden tratar datos en Estados Unidos. Ambas empresas están adheridas al Marco de Privacidad de Datos UE-EE. UU. (decisión de adecuación de la Comisión Europea de 10 de julio de 2023) y utilizan además cláusulas contractuales tipo.</p>
+
+  <h2>6. Tus derechos</h2>
+  <p>Puedes ejercer los derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad, y retirar tu consentimiento en cualquier momento, escribiendo a <a href={`mailto:${SITE.email}`}>{SITE.email}</a> con el asunto «Protección de datos». Si fuera necesario para identificarte, se te podría pedir información adicional.</p>
+  <p>Para cambiar tu elección sobre las cookies, usa el enlace <strong>«Configurar cookies»</strong> del pie de página.</p>
+  <p>Si consideras que no se han tratado bien tus datos, puedes presentar una reclamación ante la Agencia Española de Protección de Datos (<a href="https://www.aepd.es" rel="noopener">www.aepd.es</a>).</p>
+
+  <h2>7. Menores de edad</h2>
+  <p>Este sitio no está dirigido a menores de 14 años y no se recogen conscientemente sus datos.</p>
+
+  <h2>8. Seguridad</h2>
+  <p>La web es estática (no tiene base de datos ni panel de administración expuesto), se sirve siempre por HTTPS y el acceso a la cuenta de publicación está protegido con verificación en dos pasos.</p>
+
+  <h2>9. Cambios en esta política</h2>
+  <p>Cualquier cambio se publicará en esta página con su fecha de actualización.</p>
+
+  <p><em>Última actualización: {LEGAL.updated}</em></p>
+</Legal>

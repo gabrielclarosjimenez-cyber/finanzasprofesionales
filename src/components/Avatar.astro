@@ -1,0 +1,7 @@
+---
+import { AUTHOR } from '../config';
+const initials = AUTHOR.name.split(' ').slice(0, 2).map((p) => p[0]).join('');
+---
+{AUTHOR.photo
+  ? <img class="avatar" src={AUTHOR.photo} alt={`Foto de ${AUTHOR.name}`} width="72" height="72" />
+  : <span class="avatar" aria-hidden="true">{initials}</span>}

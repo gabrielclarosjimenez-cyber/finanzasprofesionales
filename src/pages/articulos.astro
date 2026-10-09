@@ -1,0 +1,15 @@
+---
+import Base from '../layouts/Base.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import { getArticles } from '../lib';
+const articles = await getArticles();
+---
+<Base title="Todas las guías" description="Todas las guías de Finanzas Profesionales sobre seguridad bancaria, estafas, pagos digitales, herramientas de presupuesto e inteligencia artificial.">
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Migas de pan"><a href="/">Inicio</a> › Todas las guías</nav>
+    <h1>Todas las guías</h1>
+    {articles.length > 0
+      ? <div class="grid">{articles.map((a) => <ArticleCard article={a} />)}</div>
+      : <p class="empty">Estamos preparando las primeras guías.</p>}
+  </div>
+</Base>

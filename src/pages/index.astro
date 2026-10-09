@@ -1,0 +1,62 @@
+---
+import Base from '../layouts/Base.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import { getArticles } from '../lib';
+import { CATEGORIES } from '../data/categories';
+import { SITE, AUTHOR } from '../config';
+const articles = await getArticles();
+const latest = articles.slice(0, 6);
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: SITE.name,
+  url: `${SITE.url}/`,
+  inLanguage: 'es-ES',
+  description: SITE.description,
+  publisher: { '@type': 'Person', name: AUTHOR.name },
+};
+---
+<Base title={SITE.name} schema={schema}>
+  <section class="hero">
+    <div class="container">
+      <h1>Protege tu dinero en internet y usa la tecnología a tu favor</h1>
+      <p>Guías claras y probadas para reconocer estafas, usar la banca online con seguridad y organizar tus finanzas con herramientas digitales.</p>
+      <a class="btn" href="/articulos/">Ver todas las guías</a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Últimas guías</h2>
+        <a href="/articulos/">Ver todas</a>
+      </div>
+      {latest.length > 0
+        ? <div class="grid">{latest.map((a) => <ArticleCard article={a} />)}</div>
+        : <p class="empty">Estamos preparando las primeras guías.</p>}
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <h2>Temas</h2>
+      <div class="grid">
+        {CATEGORIES.map((c) => (
+          <article class="card cat-card">
+            <h3><a href={`/categoria/${c.slug}/`}>{c.name}</a></h3>
+            <p>{c.description}</p>
+            {(() => { const n = articles.filter((a) => a.data.category === c.slug).length; return <span class="meta">{n === 0 ? 'Próximas guías en preparación' : n === 1 ? '1 guía' : `${n} guías`}</span>; })()}
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="container narrow">
+      <h2>Quién escribe</h2>
+      <p>Soy <strong>{AUTHOR.name}</strong>, {AUTHOR.role.toLowerCase()}. En mi trabajo veo a menudo cómo un SMS falso, una contraseña reutilizada o una app mal configurada acaban costando dinero. Aquí explico, con pruebas propias y enlaces a fuentes oficiales, cómo evitarlo.</p>
+      <p><a href="/sobre-mi/">Conoce más sobre mí y cómo trabajo</a></p>
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,17 @@
+---
+import type { Article } from '../lib';
+import { formatDate } from '../lib';
+import { categoryBySlug } from '../data/categories';
+interface Props { article: Article; showCategory?: boolean }
+const { article, showCategory = true } = Astro.props;
+const cat = categoryBySlug(article.data.category);
+---
+<article class="card">
+  {showCategory && <a class="tag" href={`/categoria/${cat.slug}/`}>{cat.name}</a>}
+  <h3><a href={`/${article.id}/`}>{article.data.title}</a></h3>
+  <p>{article.data.description}</p>
+  <span class="meta">
+    {formatDate(article.data.updatedDate ?? article.data.pubDate)}
+    {article.data.draft && ' · BORRADOR (no publicado)'}
+  </span>
+</article>

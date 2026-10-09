@@ -1,0 +1,96 @@
+---
+import { render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import AuthorBox from '../components/AuthorBox.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import Avatar from '../components/Avatar.astro';
+import { getArticles, formatDate, readingTime, type Article } from '../lib';
+import { categoryBySlug } from '../data/categories';
+import { SITE, AUTHOR } from '../config';
+
+export async function getStaticPaths() {
+  const articles = await getArticles();
+  return articles.map((article) => ({
+    params: { slug: article.id },
+    props: { article, related: articles.filter((a) => a.id !== article.id && a.data.category === article.data.category).slice(0, 3) },
+  }));
+}
+
+interface Props { article: Article; related: Article[] }
+const { article, related } = Astro.props;
+const { data } = article;
+const { Content } = await render(article);
+const cat = categoryBySlug(data.category);
+const url = new URL(`/${article.id}/`, SITE.url).href;
+const minutes = readingTime(article.body ?? '');
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Article',
+      headline: data.title,
+      description: data.description,
+      datePublished: data.pubDate.toISOString(),
+      dateModified: (data.updatedDate ?? data.pubDate).toISOString(),
+      inLanguage: 'es-ES',
+      mainEntityOfPage: url,
+      ...(data.image && { image: new URL(data.image, SITE.url).href }),
+      author: { '@type': 'Person', name: AUTHOR.name, url: `${SITE.url}/sobre-mi/` },
+      publisher: { '@type': 'Organization', name: SITE.name, logo: { '@type': 'ImageObject', url: `${SITE.url}/favicon.svg` } },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Inicio', item: `${SITE.url}/` },
+        { '@type': 'ListItem', position: 2, name: cat.name, item: `${SITE.url}/categoria/${cat.slug}/` },
+        { '@type': 'ListItem', position: 3, name: data.title, item: url },
+      ],
+    },
+  ],
+};
+---
+<Base title={data.title} description={data.description} type="article" image={data.image} schema={schema}>
+  <div class="container narrow">
+    <nav class="breadcrumbs" aria-label="Migas de pan">
+      <a href="/">Inicio</a> › <a href={`/categoria/${cat.slug}/`}>{cat.name}</a>
+    </nav>
+    <article>
+      <header class="article-header">
+        <h1>{data.title}</h1>
+        <p class="lead">{data.description}</p>
+        <div class="byline">
+          <Avatar />
+          <div>
+            Por <a href="/sobre-mi/">{AUTHOR.name}</a><br />
+            Publicado el <time datetime={data.pubDate.toISOString()}>{formatDate(data.pubDate)}</time>
+            {data.updatedDate && <> · Actualizado el <time datetime={data.updatedDate.toISOString()}>{formatDate(data.updatedDate)}</time></>}
+            {' '}· {minutes} min de lectura
+          </div>
+        </div>
+      </header>
+      {data.image && <img src={data.image} alt={data.imageAlt ?? ''} width="1200" height="675" />}
+      <div class="prose">
+        <Content />
+      </div>
+      {data.disclaimer && (
+        <p class="notice"><strong>Aviso:</strong> este artículo es informativo y no constituye asesoramiento financiero, legal ni de inversión. Ante dudas sobre tu caso concreto, consulta con tu entidad o con un profesional.</p>
+      )}
+      {data.sources.length > 0 && (
+        <section class="sources">
+          <h2>Fuentes</h2>
+          <ul>{data.sources.map((s) => <li><a href={s.url} rel="noopener" target="_blank">{s.name}</a></li>)}</ul>
+        </section>
+      )}
+    </article>
+    <AuthorBox />
+  </div>
+  {related.length > 0 && (
+    <section class="section">
+      <div class="container">
+        <h2>Más sobre {cat.name.toLowerCase()}</h2>
+        <div class="grid">{related.map((a) => <ArticleCard article={a} showCategory={false} />)}</div>
+      </div>
+    </section>
+  )}
+</Base>

@@ -1,0 +1,45 @@
+---
+import { SITE, AUTHOR, ADSENSE } from '../config';
+import { CATEGORIES } from '../data/categories';
+const year = new Date().getFullYear();
+---
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h2>{SITE.name}</h2>
+        <p>{SITE.description}</p>
+        <p>El contenido de esta web es informativo y no constituye asesoramiento financiero, fiscal ni legal.</p>
+      </div>
+      <div>
+        <h2>Temas</h2>
+        <ul>
+          {CATEGORIES.map((c) => <li><a href={`/categoria/${c.slug}/`}>{c.name}</a></li>)}
+          <li><a href="/articulos/">Todos los artículos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>La web</h2>
+        <ul>
+          <li><a href="/sobre-mi/">Sobre mí</a></li>
+          <li><a href="/contacto/">Contacto</a></li>
+          <li><a href="/aviso-legal/">Aviso legal</a></li>
+          <li><a href="/politica-privacidad/">Política de privacidad</a></li>
+          <li><a href="/politica-de-cookies/">Política de cookies</a></li>
+          {ADSENSE.client && <li><button type="button" class="link-button" id="configurar-cookies">Configurar cookies</button></li>}
+        </ul>
+      </div>
+    </div>
+    <p class="copy">© {year} {SITE.name} · {AUTHOR.name}</p>
+  </div>
+</footer>
+{ADSENSE.client && (
+  <script is:inline>
+    // Vuelve a abrir el mensaje de consentimiento de Google (CMP certificada TCF v2.2).
+    document.getElementById('configurar-cookies')?.addEventListener('click', function () {
+      window.googlefc = window.googlefc || {};
+      window.googlefc.callbackQueue = window.googlefc.callbackQueue || [];
+      window.googlefc.callbackQueue.push(function () { window.googlefc.showRevocationMessage(); });
+    });
+  </script>
+)}
