@@ -88,7 +88,7 @@ const schema = {
   {related.length > 0 && (
     <section class="section">
       <div class="container">
-        <h2>Más sobre {cat.name.toLowerCase()}</h2>
+        <h2>Más guías de {cat.name}</h2>
         <div class="grid">{related.map((a) => <ArticleCard article={a} showCategory={false} />)}</div>
       </div>
     </section>

@@ -18,4 +18,4 @@ export async function getArticles(): Promise<Article[]> {
 export const formatDate = (d: Date) =>
   d.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Europe/Madrid' });
 
-export const readingTime = (text: string) => Math.max(1, Math.round(text.split(/\s+/).length / 220));
+export const readingTime = (text: string) => Math.max(1, Math.ceil(text.split(/\s+/).length / 200));

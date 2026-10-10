@@ -3,6 +3,7 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import { readdirSync, readFileSync } from 'node:fs';
+import remarkHideUnpublishedLinks, { unpublishedSlugs } from './src/remark-hide-unpublished-links.mjs';
 
 // Categorías con al menos un artículo publicado (las vacías no van al sitemap).
 const dir = './src/content/articulos';
@@ -18,6 +19,9 @@ const usedCategories = new Set(
 export default defineConfig({
   site: 'https://finanzasprofesionales.es',
   trailingSlash: 'always',
+  markdown: {
+    remarkPlugins: [[remarkHideUnpublishedLinks, { hidden: process.argv.includes('dev') ? new Set() : unpublishedSlugs() }]],
+  },
   build: { format: 'directory' },
   integrations: [
     sitemap({
