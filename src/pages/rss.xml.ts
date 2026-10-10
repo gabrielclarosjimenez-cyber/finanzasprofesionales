@@ -3,7 +3,7 @@ import { getArticles } from '../lib';
 import { SITE } from '../config';
 
 export async function GET() {
-  const articles = (await getArticles()).filter((a) => !a.data.draft);
+  const articles = await getArticles();
   return rss({
     title: SITE.name,
     description: SITE.description,

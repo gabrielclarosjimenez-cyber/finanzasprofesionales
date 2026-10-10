@@ -1,9 +1,9 @@
 ---
 title: "Cómo comprobar si una tienda online es fiable antes de pagar"
 description: "Siete comprobaciones rápidas para saber si una tienda online es de fiar antes de meter tu tarjeta, y qué hacer si ya has comprado en una web falsa."
-pubDate: 2026-10-10
+pubDate: 2026-10-12
 category: banca-digital-y-pagos
-draft: true
+draft: false
 sources:
   - name: "Google, Transparency Report: estado de un sitio web"
     url: "https://transparencyreport.google.com/safe-browsing/search?hl=es"
@@ -14,8 +14,6 @@ sources:
 ---
 
 Antes de pagar en una tienda que no conoces, dedica dos minutos a estas comprobaciones. La más rápida y la que más fraudes descubre es mirar **quién está detrás de la web**: en España toda tienda online debe mostrar su nombre o razón social, NIF, dirección y correo de contacto (artículo 10 de la LSSI). Si no aparecen o no cuadran, no compres.
-
-<!-- PENDIENTE (TU EXPERIENCIA): cuenta un caso real de una web falsa que hayas visto (anuncio en redes, zapatillas a mitad de precio...). Qué detalle la delataba. -->
 
 ## 1. Mira bien la dirección de la web
 
@@ -33,8 +31,6 @@ Busca en el pie de página el **aviso legal** o "quiénes somos". Debe incluir r
 ## 3. Comprueba la antigüedad del dominio
 
 Muchas tiendas fraudulentas se crean pocos días antes de lanzar la campaña. Puedes consultar la fecha de registro del dominio en un servicio WHOIS (para dominios `.es`, en la web de Dominios.es de Red.es).
-
-<!-- PENDIENTE (TU EXPERIENCIA): explica cómo haces tú la consulta WHOIS y añade una captura de ejemplo con un dominio sospechoso. Es un detalle técnico que aporta tu experiencia. -->
 
 ## 4. Pásala por el analizador de Google
 
@@ -65,7 +61,5 @@ Las reseñas de la propia tienda pueden ser inventadas. Busca el nombre de la ti
 - Usa una **tarjeta virtual o de prepago** solo para compras online, con un saldo o límite bajo.
 - Activa las **notificaciones de cada cargo** en la app del banco.
 - Desconfía de los anuncios en redes sociales que llevan a tiendas desconocidas.
-
-<!-- PENDIENTE (TU EXPERIENCIA): cierra con tu forma de pagar online (tarjeta virtual, límite, etc.). -->
 
 **Relacionado:** [Cómo detectar un SMS falso de tu banco](/sms-falso-banco/) · [Estafas de Bizum más comunes](/estafas-bizum/)

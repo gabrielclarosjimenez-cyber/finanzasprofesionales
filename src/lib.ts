@@ -2,9 +2,16 @@ import { getCollection, type CollectionEntry } from 'astro:content';
 
 export type Article = CollectionEntry<'articulos'>;
 
-/** Artículos publicados, del más reciente al más antiguo. En local también muestra borradores. */
+/** ¿Se puede publicar? No es borrador y su fecha de publicación ya ha llegado. */
+export const isPublished = (data: Article['data'], now = new Date()) => !data.draft && data.pubDate <= now;
+
+/**
+ * Artículos publicados, del más reciente al más antiguo.
+ * Los que tienen fecha futura se publican solos ese día (la web se reconstruye cada mañana).
+ * En local (`npm run dev`) se ven todos, también borradores y programados.
+ */
 export async function getArticles(): Promise<Article[]> {
-  const all = await getCollection('articulos', ({ data }) => import.meta.env.DEV || !data.draft);
+  const all = await getCollection('articulos', ({ data }) => import.meta.env.DEV || isPublished(data));
   return all.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 }
 

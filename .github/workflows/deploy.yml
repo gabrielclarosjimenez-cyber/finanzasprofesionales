@@ -1,10 +1,13 @@
-# Publica la web en GitHub Pages cada vez que se sube un cambio a la rama main.
+# Publica la web en GitHub Pages cada vez que se sube un cambio a la rama main,
+# y además cada mañana, para que salgan solos los artículos programados para ese día.
 name: Publicar web
 
 on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: '30 5 * * *' # 05:30 UTC = 07:30 en España (horario de verano)
 
 permissions:
   contents: read

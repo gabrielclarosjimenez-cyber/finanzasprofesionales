@@ -1,9 +1,9 @@
 ---
 title: "Verificación en dos pasos: cómo activarla en tu correo, tu banco y tus apps de pago"
 description: "Qué es la verificación en dos pasos, qué método elegir (SMS, app autenticadora o llave) y cómo activarla en las cuentas que protegen tu dinero."
-pubDate: 2026-10-09
+pubDate: 2026-10-10
 category: seguridad-y-estafas
-draft: true
+draft: false
 disclaimer: false
 sources:
   - name: "Google, Verificación en dos pasos"
@@ -15,8 +15,6 @@ sources:
 La verificación en dos pasos (también llamada *2FA* o autenticación de dos factores) hace que, para entrar en una cuenta, no baste con la contraseña: además hace falta algo que solo tienes tú, como un código del móvil o una llave física. Si alguien roba o adivina tu contraseña, **no podrá entrar sin ese segundo paso**. Es la medida que más protege tus cuentas por el esfuerzo que requiere: se activa en unos minutos.
 
 En esta guía te explico qué método elegir y en qué cuentas activarla primero.
-
-<!-- PENDIENTE (TU EXPERIENCIA): cuenta por qué la usas tú o un caso en que te salvó (un aviso de inicio de sesión desde otro país, por ejemplo). -->
 
 ## Por qué empezar por tu correo electrónico
 
@@ -40,8 +38,6 @@ El orden recomendado es:
 | Llave de seguridad o *passkey* | Muy alta | Resistente al phishing: no funciona en una web falsa. Ideal para el correo. |
 
 **Recomendación:** app autenticadora o *passkey* para el correo y el gestor de contraseñas, y lo que ofrezca cada servicio para el resto.
-
-<!-- PENDIENTE (TU EXPERIENCIA): di qué app autenticadora usas tú y por qué (copia de seguridad cifrada, exportación, etc.). Añade una captura de la pantalla de configuración con los códigos tapados. -->
 
 ## Cómo activarla en Gmail (cuenta de Google)
 
@@ -76,7 +72,5 @@ En la banca online el segundo factor viene ya activado, pero revisa en la app:
 1. Activa la verificación en dos pasos en tu correo principal hoy mismo.
 2. Guarda los códigos de reserva impresos o en tu gestor de contraseñas.
 3. Revisa en la app del banco qué dispositivos tienen permiso para confirmar operaciones.
-
-<!-- PENDIENTE (TU EXPERIENCIA): cierra con un consejo propio, por ejemplo cómo lo configuraste en el móvil de un familiar. -->
 
 **Relacionado:** [Cómo detectar un SMS falso de tu banco](/sms-falso-banco/) · [Llamadas falsas del banco](/llamadas-falsas-banco/)

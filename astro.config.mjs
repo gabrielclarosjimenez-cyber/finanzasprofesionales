@@ -6,11 +6,12 @@ import { readdirSync, readFileSync } from 'node:fs';
 
 // Categorías con al menos un artículo publicado (las vacías no van al sitemap).
 const dir = './src/content/articulos';
+const now = new Date();
 const usedCategories = new Set(
   readdirSync(dir)
     .filter((f) => f.endsWith('.md'))
     .map((f) => readFileSync(`${dir}/${f}`, 'utf8'))
-    .filter((t) => /^draft:\s*false/m.test(t))
+    .filter((t) => /^draft:\s*false/m.test(t) && new Date(t.match(/^pubDate:\s*(\S+)/m)?.[1]) <= now)
     .map((t) => t.match(/^category:\s*(\S+)/m)?.[1]),
 );
 

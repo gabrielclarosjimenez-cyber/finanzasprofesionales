@@ -1,9 +1,9 @@
 ---
 title: "Estafas de Bizum más comunes y cómo evitarlas"
 description: "Las estafas con Bizum que más se repiten (solicitudes de dinero, falsos compradores, errores fingidos) y cómo protegerte y reclamar si ya te han engañado."
-pubDate: 2026-10-10
+pubDate: 2026-10-11
 category: seguridad-y-estafas
-draft: true
+draft: false
 sources:
   - name: "Bizum, Seguridad y protección"
     url: "https://bizum.com/es/seguridad"
@@ -15,15 +15,11 @@ sources:
 
 Bizum es rápido y cómodo, y por eso también es una herramienta favorita de los estafadores: el dinero llega al momento y **no se puede anular** una vez enviado. Casi todas las estafas se basan en lo mismo: que confundas una **solicitud de dinero** con un **envío**, o que mandes dinero a alguien que no conoces. La regla que te protege: **para cobrar por Bizum nunca tienes que aceptar nada ni meter tu clave**. Si la app te pide confirmar una operación, estás pagando tú.
 
-<!-- PENDIENTE (TU EXPERIENCIA): cuenta un intento de estafa que hayas recibido tú o alguien cercano (Wallapop, un alquiler, un familiar...). Qué pasó y qué te hizo sospechar. -->
-
 ## 1. La "solicitud de dinero" que se hace pasar por un pago
 
 Es la más frecuente en compraventas entre particulares. Vendes algo y el supuesto comprador dice: "Te he enviado el dinero por Bizum, acéptalo". Lo que te ha llegado no es un pago, es una **solicitud de dinero**. Si la aceptas, el dinero sale de tu cuenta.
 
 **Cómo evitarla:** cuando alguien te paga por Bizum, el dinero aparece directamente en tu cuenta y te llega una notificación de ingreso. No hay nada que aceptar. Si ves un botón de "Aceptar" o "Pagar", rechaza la solicitud.
-
-<!-- PENDIENTE (IMAGEN): captura de cómo se ve una solicitud de dinero en tu app (con nombres y números tapados), comparada con un ingreso real. Texto alternativo: "Diferencia entre una solicitud de dinero y un ingreso por Bizum". -->
 
 ## 2. El "me he equivocado, devuélvemelo"
 
@@ -60,7 +56,5 @@ Te llaman diciendo que hay un problema con tu cuenta y te piden hacer un Bizum o
 - Revisa el **límite de Bizum** en tu app y bájalo si nunca envías importes altos.
 - Activa las **notificaciones** de cada envío y cada solicitud.
 - Si no usas Bizum, puedes **darte de baja** desde la app del banco y volver a activarlo cuando lo necesites.
-
-<!-- PENDIENTE (TU EXPERIENCIA): di qué límite tienes tú configurado o qué le configuraste a un familiar y por qué. -->
 
 **Relacionado:** [Cómo detectar un SMS falso de tu banco](/sms-falso-banco/) · [Llamadas falsas del banco](/llamadas-falsas-banco/)

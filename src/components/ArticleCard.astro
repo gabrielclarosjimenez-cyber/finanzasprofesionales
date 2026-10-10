@@ -12,6 +12,6 @@ const cat = categoryBySlug(article.data.category);
   <p>{article.data.description}</p>
   <span class="meta">
     {formatDate(article.data.updatedDate ?? article.data.pubDate)}
-    {article.data.draft && ' · BORRADOR (no publicado)'}
+    {article.data.draft ? ' · BORRADOR' : article.data.pubDate > new Date() ? ' · PROGRAMADO' : ''}
   </span>
 </article>

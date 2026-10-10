@@ -1,9 +1,9 @@
 ---
 title: "He perdido el móvil con las apps del banco: qué hacer paso a paso"
 description: "Qué hacer en la primera hora si pierdes o te roban el móvil con tus apps bancarias: bloquear, borrar a distancia, avisar al banco y a la operadora."
-pubDate: 2026-10-10
+pubDate: 2026-10-13
 category: banca-digital-y-pagos
-draft: true
+draft: false
 sources:
   - name: "Google, Encontrar mi dispositivo"
     url: "https://support.google.com/android/answer/6160491?hl=es"
@@ -15,8 +15,6 @@ sources:
 
 Si pierdes el móvil o te lo roban, lo más urgente es **evitar que alguien use tu línea y tus apps del banco**. Actúa en este orden: localiza o bloquea el móvil a distancia, llama a tu banco para bloquear el acceso y las tarjetas del móvil, y pide a tu operadora que bloquee la SIM. Con estos tres pasos, en la mayoría de los casos tu dinero queda protegido.
 
-<!-- PENDIENTE (TU EXPERIENCIA): cuenta si te ha pasado a ti o a alguien cercano, o qué ves en tu trabajo cuando alguien pierde el móvil. -->
-
 ## Paso 1: localiza, bloquea o borra el móvil a distancia
 
 Hazlo desde otro dispositivo (el ordenador o el móvil de alguien de confianza):
@@ -25,8 +23,6 @@ Hazlo desde otro dispositivo (el ordenador o el móvil de alguien de confianza):
 - **iPhone:** entra en [icloud.com/find](https://www.icloud.com/find) con tu Apple ID y activa el **Modo Perdido**. Bloquea el iPhone y suspende Apple Pay.
 
 > Si lo borras, ya no podrás localizarlo. Bórralo solo cuando estés seguro de que no lo vas a recuperar.
-
-<!-- PENDIENTE (IMAGEN): captura de la pantalla de Encontrar mi dispositivo o Buscar, con tus datos tapados. Texto alternativo: "Bloqueo remoto de un móvil perdido". -->
 
 ## Paso 2: llama a tu banco
 
@@ -58,7 +54,5 @@ Si te lo han robado, denuncia en la policía. Lleva el **IMEI** del móvil (apar
 - Comprueba que **Encontrar mi dispositivo** (Android) o **Buscar** (iPhone) están activados.
 - Apunta en un lugar seguro, fuera del móvil, el **teléfono de tu banco** y el **IMEI**.
 - Activa la [verificación en dos pasos](/verificacion-en-dos-pasos/) en tu correo con un método que no dependa solo del SMS.
-
-<!-- PENDIENTE (TU EXPERIENCIA): cierra con lo que tienes configurado tú en tu móvil para este caso. -->
 
 **Relacionado:** [Verificación en dos pasos](/verificacion-en-dos-pasos/) · [Llamadas falsas del banco](/llamadas-falsas-banco/)

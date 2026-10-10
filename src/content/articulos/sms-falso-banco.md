@@ -13,14 +13,9 @@ sources:
     url: "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16036"
 ---
 
-
 Un SMS falso del banco (lo que se llama *smishing*) intenta que pulses un enlace y escribas tus claves en una web que imita a la de tu entidad. La regla que más protege es sencilla: **tu banco nunca te pedirá por SMS que entres en un enlace para verificar, desbloquear o cancelar nada**. Si recibes un mensaje así, no pulses: abre la app oficial del banco tú mismo y comprueba allí si hay algún aviso.
 
 En esta guía te explico cómo reconocer estos mensajes, por qué a veces aparecen en la misma conversación que los SMS auténticos de tu banco y qué hacer, paso a paso, si ya has pinchado o has escrito tus datos.
-
-<!-- PENDIENTE (TU EXPERIENCIA): 2-4 frases. Por ejemplo: "La semana pasada recibí este mensaje en nombre de mi banco..." o el caso de un familiar. Cuenta qué te hizo sospechar. -->
-
-<!-- PENDIENTE (IMAGEN): captura del SMS falso con el enlace y tu número tapados. Texto alternativo: "Ejemplo de SMS falso que suplanta a un banco español" -->
 
 ## Por qué el SMS falso aparece junto a los mensajes reales de tu banco
 
@@ -38,8 +33,6 @@ Que un mensaje aparezca en la misma conversación **no demuestra que sea legíti
 6. **Tiene fallos de redacción** o un tono extraño, aunque cada vez son menos frecuentes porque los estafadores también usan herramientas de traducción e IA.
 7. **Llega a una hora o en un momento raro,** o de un banco con el que no tienes cuenta.
 8. **Después del SMS te llama "el departamento de seguridad"** para que le dictes un código o hagas una transferencia "a una cuenta segura". Es la misma estafa en dos pasos.
-
-<!-- PENDIENTE (TU EXPERIENCIA): si has comprobado algún dominio falso, explica cómo lo verificaste. Por ejemplo, con una búsqueda WHOIS que muestre que se registró hace pocos días. Es el tipo de detalle técnico que te diferencia. -->
 
 ## Cómo comprobar si un mensaje es real sin arriesgarte
 
@@ -65,8 +58,6 @@ Actúa en este orden y sin esperar:
 5. **Denuncia** en comisaría de Policía Nacional o en un puesto de la Guardia Civil (o en la policía autonómica que corresponda). El banco te pedirá la denuncia para tramitar la reclamación.
 6. **Reclama por escrito al banco** la devolución de las operaciones que no autorizaste.
 
-<!-- PENDIENTE (IMAGEN): captura de la opción de bloquear la tarjeta en la app de tu banco. Texto alternativo: "Bloqueo de tarjeta desde la app del banco" -->
-
 ## ¿Te devuelve el banco el dinero?
 
 En España, las operaciones de pago no autorizadas están reguladas por el Real Decreto-ley 19/2018 de servicios de pago. Como norma general, si comunicas al banco **sin demora** una operación que no autorizaste (y siempre dentro de los 13 meses siguientes), el banco debe devolverte el importe, salvo que demuestre que actuaste con fraude o con **negligencia grave**.
@@ -89,4 +80,3 @@ Qué se considera negligencia grave depende de cada caso, y los bancos a veces l
 3. Configura un **límite diario** de pagos y transferencias que se ajuste a tu uso real.
 4. Comparte esta guía con familiares mayores, que son el objetivo más frecuente de estas campañas.
 
-<!-- PENDIENTE (TU EXPERIENCIA): cierra con una frase personal. Por ejemplo, qué cambiaste tú en tu móvil o tu banco después de recibir este tipo de mensajes. -->

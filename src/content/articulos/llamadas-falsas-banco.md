@@ -1,9 +1,9 @@
 ---
 title: "Llamadas falsas del banco (vishing): por qué sale el número real y cómo actuar"
 description: "Por qué una llamada falsa puede mostrar el teléfono auténtico de tu banco, qué frases delatan la estafa y qué hacer si ya has dado un código o una clave."
-pubDate: 2026-10-09
+pubDate: 2026-10-10
 category: seguridad-y-estafas
-draft: true
+draft: false
 sources:
   - name: "INCIBE, Línea de ayuda en ciberseguridad 017"
     url: "https://www.incibe.es/linea-de-ayuda-en-ciberseguridad"
@@ -16,8 +16,6 @@ sources:
 Una llamada falsa del banco (lo que se conoce como *vishing*) es una estafa por teléfono en la que alguien se hace pasar por el departamento de seguridad de tu entidad para que le dictes un código, le des tus claves o hagas una transferencia "a una cuenta segura". La regla que te protege es esta: **si te llaman, cuelga y llama tú al número oficial de tu banco**. Da igual que en la pantalla aparezca el teléfono real de tu banco: puede estar falsificado.
 
 En esta guía te explico por qué ocurre eso, cómo suele desarrollarse la llamada y qué hacer si ya has caído.
-
-<!-- PENDIENTE (TU EXPERIENCIA): cuenta una llamada así que hayas recibido tú o alguien cercano (sin datos personales). Qué decía, qué número salía y qué te hizo sospechar. -->
 
 ## Por qué aparece el número real de tu banco
 
@@ -46,8 +44,6 @@ Tu banco **nunca** te dirá ninguna de estas frases:
 - "No comente esto con nadie, ni siquiera en la oficina."
 
 Si escuchas cualquiera de ellas, cuelga.
-
-<!-- PENDIENTE (TU EXPERIENCIA): como técnico, explica por qué una app de control remoto da acceso total al móvil (lo que ve el estafador, qué puede tocar). Es un detalle que aporta tu experiencia. -->
 
 ## Cómo comprobar si la llamada es real
 
@@ -81,7 +77,5 @@ Si fuiste tú quien hizo la transferencia engañado, la situación es más difí
 4. Habla de esta estafa con familiares mayores: son el objetivo más frecuente.
 
 Si tienes dudas en el momento, el **017** de INCIBE es gratuito y confidencial.
-
-<!-- PENDIENTE (TU EXPERIENCIA): cierra con qué has configurado tú en tu banco o en el móvil de un familiar después de conocer este tipo de llamadas. -->
 
 **Relacionado:** [Cómo detectar un SMS falso de tu banco](/sms-falso-banco/) · [Verificación en dos pasos: cómo activarla](/verificacion-en-dos-pasos/)

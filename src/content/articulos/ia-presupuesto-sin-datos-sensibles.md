@@ -1,9 +1,9 @@
 ---
 title: "Cómo usar ChatGPT, Gemini o Claude para tu presupuesto sin compartir datos sensibles"
 description: "Cómo pedir ayuda a un asistente de IA para organizar tus gastos y hacer un presupuesto, qué datos no debes darle nunca y cómo anonimizar tus movimientos."
-pubDate: 2026-10-10
+pubDate: 2026-10-15
 category: ia-y-automatizacion
-draft: true
+draft: false
 sources:
   - name: "AEPD, Cuidado con lo que le confIAs (infografía)"
     url: "https://www.aepd.es/infografias/recomendaciones-ia-info.pdf"
@@ -12,8 +12,6 @@ sources:
 ---
 
 Un asistente de inteligencia artificial puede ayudarte a clasificar gastos, detectar dónde se te va el dinero y proponerte un presupuesto. La condición es **no darle datos que permitan identificarte o acceder a tus cuentas**: nada de IBAN, números de tarjeta, contraseñas, nombres completos ni capturas de la app del banco. Basta con darle **importes, fechas y categorías**.
-
-<!-- PENDIENTE (TU EXPERIENCIA): cuenta tu prueba real: qué asistente usaste, qué le pediste y qué te devolvió. Añade una captura de la conversación (con los datos ya anonimizados). Este es el corazón del artículo. -->
 
 ## Qué datos nunca debes dar a una IA
 
@@ -32,8 +30,6 @@ Lo que escribes en un chat puede guardarse en el historial y, según el servicio
 3. **Sustituye los conceptos con nombres de personas** por algo genérico: "Bizum a amigo", "Transferencia alquiler".
 4. Deja solo tres columnas: **fecha, concepto genérico e importe**.
 5. Copia y pega esa tabla en el chat. No subas el archivo original.
-
-<!-- PENDIENTE (IMAGEN): captura de la tabla anonimizada en la hoja de cálculo. Texto alternativo: "Movimientos bancarios anonimizados antes de pegarlos en un asistente de IA". -->
 
 ## Instrucciones que funcionan bien
 
@@ -56,7 +52,5 @@ Puedes copiar y adaptar estas peticiones:
 1. Exporta tus movimientos de este mes y anonimízalos siguiendo los pasos de arriba.
 2. Pide al asistente la clasificación por categorías.
 3. Compara el resultado con tu propia suma y apunta una sola mejora para el mes que viene.
-
-<!-- PENDIENTE (TU EXPERIENCIA): cierra con qué cambiaste tú tras hacer este ejercicio. -->
 
 **Relacionado:** [Cómo detectar y cancelar suscripciones que ya no usas](/cancelar-suscripciones/)
