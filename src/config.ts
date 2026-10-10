@@ -13,11 +13,11 @@ export const SITE = {
 
 export const AUTHOR = {
   name: 'Gabriel Claros Jiménez',
-  role: 'Técnico en sistemas microinformáticos y redes',
+  role: 'Técnico en Sistemas Microinformáticos y Redes y estudiante de ASIR',
   shortBio:
-    'Técnico en sistemas microinformáticos y redes. En Finanzas Profesionales explica, con pruebas reales, cómo proteger tu dinero en internet y aprovechar la tecnología para organizar tus finanzas.',
-  // Pon tu foto en public/img/gabriel.jpg (cuadrada, mínimo 400×400) y cambia a '/img/gabriel.jpg'.
-  photo: '',
+    'Técnico en Sistemas Microinformáticos y Redes y estudiante de segundo curso de Administración de Sistemas Informáticos en Red (ASIR). Estudia informática desde 2021 y en Finanzas Profesionales explica, con lenguaje sencillo y fuentes oficiales, cómo proteger tu dinero en internet y usar la tecnología para organizar tus finanzas.',
+  // Foto cuadrada de 400×400 en public/img/.
+  photo: '/img/gabriel.jpg',
   linkedin: '',
 };
 

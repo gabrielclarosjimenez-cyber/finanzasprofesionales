@@ -15,10 +15,9 @@ const schema = {
   <script type="application/ld+json" set:html={JSON.stringify(schema)} />
   <div class="byline" style="margin-bottom:24px"><Avatar /> <span><strong>{AUTHOR.name}</strong><br />{AUTHOR.role}</span></div>
 
-  <p>Hola, soy <strong>{AUTHOR.name}</strong>. Soy técnico en sistemas microinformáticos y redes y trabajo en el mundo de los sistemas informáticos.</p>
-  <!-- PENDIENTE (Gabriel): añade aquí tus años de experiencia y en qué trabajas (administración de sistemas, soporte, redes...). Es lo que más confianza da a Google y a los lectores. -->
+  <p>Hola, soy <strong>{AUTHOR.name}</strong>. Estudio informática desde 2021: tengo el título de <strong>Técnico en Sistemas Microinformáticos y Redes</strong> (grado medio) y estoy en segundo curso de <strong>Administración de Sistemas Informáticos en Red (ASIR)</strong>, que terminaré este curso. Después me gustaría especializarme en inteligencia artificial o ciberseguridad.</p>
 
-  <p>Creé Finanzas Profesionales porque en mi trabajo veo a menudo lo mismo: personas que pierden dinero por un SMS falso, una contraseña reutilizada o una app que no deberían haber instalado. La tecnología que usamos para manejar el dinero es cada vez más cómoda, pero también más fácil de atacar.</p>
+  <p>Creé Finanzas Profesionales porque, estudiando cómo funcionan los sistemas y las redes, he visto lo fácil que es perder dinero por un SMS falso, una contraseña reutilizada o una app que no deberías haber instalado. La tecnología que usamos para manejar el dinero es cada vez más cómoda, pero también más fácil de atacar, y casi todo se puede evitar con unos pocos hábitos.</p>
 
   <h2>Qué encontrarás aquí</h2>
   <ul>
@@ -29,10 +28,10 @@ const schema = {
   </ul>
 
   <h2>Cómo trabajo</h2>
-  <p>Pruebo yo mismo las herramientas y configuraciones de las que hablo y muestro capturas reales con los datos personales tapados. Cuando hablo de normas o derechos, enlazo a la fuente oficial (Banco de España, INCIBE, BOE, AEPD). Reviso las guías periódicamente y en cada una indico la fecha de la última actualización. Si ves un error, escríbeme y lo corregiré.</p>
+  <p>Explico las configuraciones paso a paso y con lenguaje sencillo. Cuando hablo de normas, derechos o datos, enlazo a la fuente oficial (Banco de España, CNMV, INCIBE, BOE, Agencia Tributaria). Reviso las guías periódicamente y en cada una indico la fecha de la última actualización. Si ves un error, escríbeme y lo corregiré.</p>
 
   <h2>Lo que no hago</h2>
-  <p>No soy asesor financiero ni recomiendo productos de inversión concretos. El contenido de esta web es informativo y no sustituye el consejo de un profesional.</p>
+  <p>No soy asesor financiero ni abogado, y no recomiendo productos de inversión concretos. El contenido de esta web es informativo y no sustituye el consejo de un profesional.</p>
 
   <h2>Contacto</h2>
   <p>Puedes escribirme a <a href={`mailto:${SITE.email}`}>{SITE.email}</a> o desde la página de <a href="/contacto/">contacto</a>.{AUTHOR.linkedin && <> También estoy en <a href={AUTHOR.linkedin} rel="me noopener">LinkedIn</a>.</>}</p>
