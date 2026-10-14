@@ -1,7 +1,7 @@
 ---
 title: "Plantilla gratuita de presupuesto mensual en Excel (regla 50/30/20)"
 description: "Descarga gratis una plantilla de presupuesto mensual para Excel o Google Sheets con la regla 50/30/20, y aprende a rellenarla en 15 minutos con los datos de tu banco."
-pubDate: 2026-10-25
+pubDate: 2026-10-14
 category: herramientas-y-presupuesto
 draft: false
 sources:

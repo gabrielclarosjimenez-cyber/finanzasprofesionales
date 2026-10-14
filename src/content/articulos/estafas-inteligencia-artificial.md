@@ -1,7 +1,7 @@
 ---
 title: "Estafas con inteligencia artificial: voces clonadas, deepfakes y falsos asesores"
 description: "Cómo funcionan las estafas que usan IA (voces clonadas de familiares, vídeos falsos de famosos que recomiendan inversiones, chats automáticos) y cómo protegerte."
-pubDate: 2026-10-21
+pubDate: 2026-10-14
 category: ia-y-automatizacion
 draft: false
 sources:

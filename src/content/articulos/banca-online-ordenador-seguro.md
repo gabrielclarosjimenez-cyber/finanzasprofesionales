@@ -1,7 +1,7 @@
 ---
 title: "Banca online en el ordenador: 10 ajustes para usarla con seguridad"
 description: "Diez ajustes para entrar en el banco desde el ordenador con seguridad: actualizaciones, extensiones, contraseñas y señales de alarma."
-pubDate: 2026-11-06
+pubDate: 2026-10-14
 category: banca-digital-y-pagos
 draft: false
 disclaimer: false

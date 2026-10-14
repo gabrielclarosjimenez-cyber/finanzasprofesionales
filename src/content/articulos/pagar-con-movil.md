@@ -1,7 +1,7 @@
 ---
 title: "¿Es seguro pagar con el móvil? Apple Pay, Google Wallet y Bizum explicados"
 description: "Por qué pagar con Apple Pay o Google Wallet suele ser más seguro que con la tarjeta física, qué es la tokenización y qué ajustes revisar."
-pubDate: 2026-10-20
+pubDate: 2026-10-14
 category: banca-digital-y-pagos
 draft: false
 disclaimer: false

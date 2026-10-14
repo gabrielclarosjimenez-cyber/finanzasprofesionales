@@ -1,7 +1,7 @@
 ---
 title: "Chiringuitos financieros: cómo saber si una inversión es una estafa"
 description: "Qué es un chiringuito financiero, las señales que lo delatan y cómo comprobar en la CNMV si una entidad está autorizada antes de invertir."
-pubDate: 2026-10-24
+pubDate: 2026-10-14
 category: seguridad-y-estafas
 draft: false
 sources:

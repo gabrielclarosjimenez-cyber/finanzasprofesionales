@@ -1,7 +1,7 @@
 ---
 title: "Ahorro automático: cómo apartar dinero cada mes sin pensar en ello"
 description: "Cómo automatizar el ahorro con transferencias periódicas, redondeos y una cuenta separada, cuánto apartar y cómo construir un fondo de emergencia paso a paso."
-pubDate: 2026-10-31
+pubDate: 2026-10-14
 category: ia-y-automatizacion
 draft: false
 sources:

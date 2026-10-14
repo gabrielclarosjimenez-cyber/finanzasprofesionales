@@ -1,7 +1,7 @@
 ---
 title: "Correos y SMS falsos de Hacienda, Correos y la DGT: cómo reconocerlos"
 description: "Cómo reconocer los mensajes falsos de Hacienda, Correos o la DGT (devoluciones, paquetes, multas) y comprobar si un aviso es real."
-pubDate: 2026-10-30
+pubDate: 2026-10-14
 category: seguridad-y-estafas
 draft: false
 disclaimer: false

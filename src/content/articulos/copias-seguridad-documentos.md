@@ -1,7 +1,7 @@
 ---
 title: "Cómo hacer copia de seguridad de tus documentos financieros (nóminas, contratos, Renta)"
 description: "La regla 3-2-1 explicada para particulares: cómo guardar y proteger tus documentos importantes en el ordenador, la nube y un disco externo sin complicarte."
-pubDate: 2026-11-03
+pubDate: 2026-10-14
 category: herramientas-y-presupuesto
 draft: false
 disclaimer: false

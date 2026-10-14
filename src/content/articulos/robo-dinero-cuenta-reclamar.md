@@ -1,7 +1,7 @@
 ---
 title: "Me han robado dinero de la cuenta: cómo reclamar al banco paso a paso"
 description: "Qué hacer si ves cargos o transferencias que no has hecho: bloquear, denunciar, reclamar al banco por escrito y acudir al Banco de España si no te devuelven el dinero."
-pubDate: 2026-10-16
+pubDate: 2026-10-14
 category: seguridad-y-estafas
 draft: false
 sources:

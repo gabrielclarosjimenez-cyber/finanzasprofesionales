@@ -1,7 +1,7 @@
 ---
 title: "Un cargo en la tarjeta que no reconozco: cómo averiguar qué es y qué hacer"
 description: "Por qué a veces no reconoces un cargo que sí es tuyo (nombres de comercio distintos, cargos pendientes, preautorizaciones) y qué hacer si de verdad es un fraude."
-pubDate: 2026-10-26
+pubDate: 2026-10-14
 category: banca-digital-y-pagos
 draft: false
 sources:

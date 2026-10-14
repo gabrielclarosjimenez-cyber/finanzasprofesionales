@@ -1,7 +1,7 @@
 ---
 title: "Cómo usar ChatGPT, Gemini o Claude para tu presupuesto sin compartir datos sensibles"
 description: "Cómo pedir ayuda a un asistente de IA para organizar tus gastos y hacer un presupuesto, qué datos no debes darle nunca y cómo anonimizar tus movimientos."
-pubDate: 2026-10-15
+pubDate: 2026-10-14
 category: ia-y-automatizacion
 draft: false
 sources:

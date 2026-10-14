@@ -1,7 +1,7 @@
 ---
 title: "Tarjeta virtual: qué es, cuándo usarla y cómo te protege al comprar online"
 description: "Qué es una tarjeta virtual, en qué se diferencia de la física, cuándo conviene usarla (compras online, suscripciones, pruebas gratuitas) y cómo configurarla bien."
-pubDate: 2026-10-18
+pubDate: 2026-10-14
 category: banca-digital-y-pagos
 draft: false
 sources:

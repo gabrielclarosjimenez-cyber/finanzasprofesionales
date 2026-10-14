@@ -1,7 +1,7 @@
 ---
 title: "Wifi pública y banca online: riesgos reales y cómo protegerte"
 description: "¿Es peligroso entrar en el banco desde una wifi pública? Qué riesgos son reales hoy, cuáles son un mito y cómo conectarte con seguridad."
-pubDate: 2026-10-22
+pubDate: 2026-10-14
 category: banca-digital-y-pagos
 draft: false
 disclaimer: false

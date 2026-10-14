@@ -1,7 +1,7 @@
 ---
 title: "Cómo organizar en digital tus documentos para la declaración de la Renta"
 description: "Qué documentos guardar para la Renta, cómo organizarlos en carpetas digitales durante todo el año y cómo acceder a tus datos fiscales en la Agencia Tributaria."
-pubDate: 2026-10-28
+pubDate: 2026-10-14
 category: herramientas-y-presupuesto
 draft: false
 sources:

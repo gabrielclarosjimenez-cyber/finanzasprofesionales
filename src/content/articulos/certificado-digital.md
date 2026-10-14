@@ -1,7 +1,7 @@
 ---
 title: "Certificado digital: qué es, cómo obtenerlo y para qué te sirve"
 description: "Qué es el certificado digital de la FNMT, cómo obtenerlo paso a paso, cómo protegerlo y qué alternativas tienes: Cl@ve y DNI electrónico."
-pubDate: 2026-10-29
+pubDate: 2026-10-14
 category: herramientas-y-presupuesto
 draft: false
 disclaimer: false

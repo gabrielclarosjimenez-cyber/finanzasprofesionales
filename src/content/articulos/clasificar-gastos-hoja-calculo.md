@@ -1,7 +1,7 @@
 ---
 title: "Automatiza tu control de gastos: clasifica los movimientos del banco en Google Sheets"
 description: "Cómo exportar los movimientos de tu banco y clasificarlos automáticamente por categorías en Google Sheets con una tabla de palabras clave y dos fórmulas."
-pubDate: 2026-11-04
+pubDate: 2026-10-14
 category: ia-y-automatizacion
 draft: false
 disclaimer: false

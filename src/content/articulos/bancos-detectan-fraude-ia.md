@@ -1,7 +1,7 @@
 ---
 title: "Cómo detectan los bancos el fraude con IA y por qué a veces te bloquean una compra"
 description: "Qué hacen los sistemas antifraude de los bancos, por qué a veces rechazan una compra legítima o bloquean la tarjeta, y cómo desbloquearla sin caer en una estafa."
-pubDate: 2026-11-02
+pubDate: 2026-10-14
 category: ia-y-automatizacion
 draft: false
 disclaimer: false

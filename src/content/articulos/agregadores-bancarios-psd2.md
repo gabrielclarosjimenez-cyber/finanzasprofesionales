@@ -1,7 +1,7 @@
 ---
 title: "Apps que conectan tus cuentas bancarias: ¿es seguro? Qué es PSD2 y qué mirar"
 description: "Cómo funcionan las apps de finanzas que leen tus cuentas de varios bancos (agregadores), qué garantiza la normativa PSD2 y cómo comprobar que una app está autorizada."
-pubDate: 2026-11-01
+pubDate: 2026-10-14
 category: banca-digital-y-pagos
 draft: false
 sources:

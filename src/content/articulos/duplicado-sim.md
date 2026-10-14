@@ -1,7 +1,7 @@
 ---
 title: "Duplicado de SIM (SIM swapping): cómo te pueden robar el número y vaciar la cuenta"
 description: "Qué es la estafa del duplicado de SIM, cómo detectarla (el móvil se queda sin línea) y qué hacer en los primeros minutos para proteger tu banco."
-pubDate: 2026-10-23
+pubDate: 2026-10-14
 category: seguridad-y-estafas
 draft: false
 sources:

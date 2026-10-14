@@ -1,7 +1,7 @@
 ---
 title: "Alertas de gastos: cómo configurar avisos del banco para controlar tu dinero"
 description: "Qué alertas activar en la app de tu banco (cargos, saldo bajo, recibos) y cómo crear un aviso de presupuesto en Google Sheets para no pasarte cada mes."
-pubDate: 2026-10-27
+pubDate: 2026-10-14
 category: ia-y-automatizacion
 draft: false
 disclaimer: false

@@ -1,7 +1,7 @@
 ---
 title: "Estafas en Wallapop y Vinted: cómo comprar y vender sin que te engañen"
 description: "Los engaños más habituales en Wallapop, Vinted y otras apps de segunda mano (enlaces de pago falsos, envíos fuera de la app, solicitudes de Bizum) y cómo evitarlos."
-pubDate: 2026-10-19
+pubDate: 2026-10-14
 category: seguridad-y-estafas
 draft: false
 disclaimer: false

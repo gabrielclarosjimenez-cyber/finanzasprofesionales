@@ -1,7 +1,7 @@
 ---
 title: "Contraseñas seguras y gestor de contraseñas: guía práctica para tu banca y tu correo"
 description: "Cómo crear contraseñas que no se adivinan, por qué no debes repetirlas y cómo empezar a usar un gestor de contraseñas paso a paso, sin complicarte."
-pubDate: 2026-10-17
+pubDate: 2026-10-14
 category: seguridad-y-estafas
 draft: false
 disclaimer: false

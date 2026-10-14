@@ -1,7 +1,7 @@
 ---
 title: "Cómo elegir una app para controlar tus gastos: 7 cosas que mirar antes de instalarla"
 description: "Qué tipos de apps de control de gastos existen y qué comprobar antes de instalar una: seguridad, privacidad, permisos y coste real."
-pubDate: 2026-11-05
+pubDate: 2026-10-14
 category: herramientas-y-presupuesto
 draft: false
 disclaimer: false
