@@ -35,5 +35,5 @@ export const LEGAL = {
 // Cuando lo pongas, la web carga el código de AdSense, el banner de
 // consentimiento de Google y genera /ads.txt automáticamente.
 export const ADSENSE = {
-  client: '', // Ejemplo: 'ca-pub-1234567890123456'
+  client: 'ca-pub-1425805239201223', // Ejemplo: 'ca-pub-1234567890123456'
 };
